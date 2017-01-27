@@ -8,11 +8,11 @@ var Neuroevolution = function(options){
 		randomClamped:function(){
 			return Math.random() * 2 - 1;
 		},
-		population:50,
+		population:1000,
 		elitism:0.2,
 		randomBehaviour:0.2,
-		mutationRate:0.1,
-		mutationRange:0.5,
+		mutationRate:100,
+		mutationRange:20,
 		network:[1, [1], 1],
 		historic:0,
 		scoreSort:-1
